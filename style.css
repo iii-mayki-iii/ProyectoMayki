@@ -49,7 +49,7 @@ input::placeholder {
     transition: 500ms
 }
 .boton-encriptar:hover,.boton-desencriptar:hover,.copiar:hover{  
-    transform:scale(1.26);
+    transform:scale(1.30);
 }
 .rectangulo{
     width:500px;
