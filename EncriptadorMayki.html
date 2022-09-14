@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <title>EncriptadorMayki</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+    </head>
+    <img class="imagen-cabeza" src="alura logo.png">
+    <body>
+        <header>
+            <input type="textarea" value ="" placeholder="POR FAVOR INGRESE EL TEXTO AQUI" class="texto-ingresado">
+        </header>
+        <main>
+            <div class="botones">
+                <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="btnDesencriptar()" >Desencriptar</button>
+            </div>
+            <div class="rectangulo">
+                <textarea class="mensaje" col="16"rows="8"></textarea>
+                <button class="copiar" onclick="copiar()">copiar</button>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
